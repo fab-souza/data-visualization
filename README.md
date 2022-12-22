@@ -15,6 +15,8 @@
 ![](https://user-images.githubusercontent.com/67301805/208895033-f126dcaa-a3d7-42f8-a40a-123db215c218.jpg#vitrinedev)
 
 
+## Sobre o curso 📚
+
 Neste curso sobre visualização de dados, do instrutor [Guilherme Lima](https://www.linkedin.com/in/guilherme-lima-458925178/), usamos um dataset sobre gorjetas de um restaurante, em que há registrado o valor consumido, valor da gorjeta, se houve pedido de sobremesa, dia da semana, qual era a refeição (almoço ou jantar) e o total de pessoas à mesa.
 
 ![image](https://user-images.githubusercontent.com/67301805/208898203-b89b3c6a-e4ba-407c-bcec-b423b3632013.png)
