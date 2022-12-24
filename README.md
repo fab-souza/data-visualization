@@ -21,7 +21,7 @@ Neste curso sobre visualização de dados, do instrutor [Guilherme Lima](https:/
 
 ![image](https://user-images.githubusercontent.com/67301805/208898203-b89b3c6a-e4ba-407c-bcec-b423b3632013.png)
 
-Eu aprendi como renomear os dados, seja para fazer sua tradução ou para atribuir um nome mais adequado à variável/dado, utilizando o *.rename()* e *.map()*. Também vi como fazer a visualização dos dados através da biblioteca **Seaborn**, por exemplo, se o valor da gorjeta é proporcional ao valor da conta, utilizando diferentes tipos de gráficos. Para saber se havia influência do pedido de sobremesa, dia da semana ou horário da refeição  no valor da gorjeta, foi usado a visualização gráfica e um teste de hipótese estatística.
+Eu aprendi como renomear os dados, seja para fazer sua tradução ou para atribuir um nome mais adequado à variável/dado, utilizando o *.rename()* e *.map()*. Também vi como fazer a visualização dos dados através da biblioteca **Seaborn**, por exemplo, se o valor da gorjeta é proporcional ao valor total da conta, se o pedido de sobremesa houve influência no valor da gorjeta, assim como, no dia da semana e horário da refeição. Para fazer as análises, foram usados a visualização gráfica e um teste de hipótese nula e p-valor.
 
 ## Minha prática 👩🏻‍💻
 
