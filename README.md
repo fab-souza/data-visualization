@@ -27,9 +27,6 @@ Eu aprendi como renomear os dados, seja para fazer sua tradução ou para atribu
 
 Usei um dataset sobre filmes e séries da [Netflix](https://www.kaggle.com/datasets/thedevastator/the-ultimate-netflix-tv-shows-and-movies-dataset), disponível no [Kaggle](https://www.kaggle.com/), para pôr em prática o conteúdo deste curso. No total, há seis arquivos *csv*, porém só utilizei dois, um sobre os melhores filmes e o outro, sobre as melhores séries.
 
-![image](https://user-images.githubusercontent.com/67301805/209204194-8f32df6a-8348-4225-a799-e872e1e62d1a.png)
-![image](https://user-images.githubusercontent.com/67301805/209204284-7a8c102c-07cb-4d28-8f14-466c57566383.png)
-
 Depois, fiz a tradução das variáveis, através do *.rename()*, e traduzi os gêneros dos filmes e séries, com o *.map()*.
 
 ![image](https://user-images.githubusercontent.com/67301805/209211030-6eb2b87c-cc35-47f6-aa6b-bd45946b7987.png)
