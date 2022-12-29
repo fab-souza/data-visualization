@@ -21,21 +21,19 @@ Neste curso sobre visualização de dados, do instrutor [Guilherme Lima](https:/
 
 ![image](https://user-images.githubusercontent.com/67301805/208898203-b89b3c6a-e4ba-407c-bcec-b423b3632013.png)
 
-Eu aprendi como renomear os dados, seja para fazer sua tradução ou para atribuir um nome mais adequado à variável/dado, utilizando o *.rename()* e *.map()*. Também vi como fazer a visualização dos dados através da biblioteca **Seaborn**, por exemplo, se o valor da gorjeta é proporcional ao valor total da conta, se o pedido de sobremesa houve influência no valor da gorjeta, assim como, no dia da semana e horário da refeição. Para fazer as análises, foram usados a visualização gráfica e um teste de hipótese nula (H0) e *valor-p*.
+Eu aprendi como renomear os dados, seja para fazer sua tradução ou para atribuir um nome mais adequado à variável/dado, utilizando o *.rename()* e *.map()*. Também vi como fazer a visualização dos dados através da biblioteca **Seaborn**, por exemplo, se o valor da gorjeta é proporcional ao valor total da conta, se o pedido de sobremesa houve influência no valor da gorjeta, assim como, no dia da semana e horário da refeição. Para fazer as análises, foram usados a visualização gráfica e um teste de hipótese nula (H_0) e *valor-p*.
 
 ## Minha prática 👩🏻‍💻
 
-Usei um dataset sobre filmes e séries da [Netflix](https://www.kaggle.com/datasets/thedevastator/the-ultimate-netflix-tv-shows-and-movies-dataset), disponível no [Kaggle](https://www.kaggle.com/), para pôr em prática o conteúdo deste curso. No total, há seis arquivos *csv*, porém só utilizei dois, um sobre os melhores filmes e o outro, sobre as melhores séries.
+Usei um dataset sobre filmes e séries da [Netflix](https://www.kaggle.com/datasets/thedevastator/the-ultimate-netflix-tv-shows-and-movies-dataset), disponível no [Kaggle](https://www.kaggle.com/), para pôr em prática o conteúdo deste curso. No total, há seis arquivos csv, porém só utilizei um, referente aos melhores filmes.
 
 Depois, fiz a tradução das variáveis, através do *.rename()*, e traduzi os gêneros dos filmes e séries, com o *.map()*.
 
 ![image](https://user-images.githubusercontent.com/67301805/209211030-6eb2b87c-cc35-47f6-aa6b-bd45946b7987.png)
-![image](https://user-images.githubusercontent.com/67301805/209211323-ad6b2887-1385-4997-8d91-069f6efa5b52.png)
+
 ![image](https://user-images.githubusercontent.com/67301805/209211091-91e7c787-db72-4ac1-ab20-e282b5004f14.png)
 
-Com os dataframes traduzidos, iniciei a parte analítica.
-
-A primeira análise foi: se há relação entre as notas dos filmes com sua duração. 
+Com os dataframes traduzidos, iniciei a parte analítica. A primeira análise foi: se há relação entre as notas dos filmes com sua duração. 
 
 Ao plotar um gráfico entre a Duração com as Notas, não obtive um resultado que esperava.
 
@@ -47,10 +45,11 @@ Por exemplo, o gráfico entre a Duração X Ano de lançamento:
 
 A variável referente ao ano de lançamento tem um intervalo maior do que as notas, por isso o primeiro gráfico não ficou com a mesma aparência.
 
+Voltando a análise, utilizei o *.lmplot()* para apresentar se há a relação entre a duração dos filmes com suas notas:
 
+![image](https://user-images.githubusercontent.com/67301805/210019151-d4921f50-721e-48f6-a45a-f05a976f81b6.png)
 
-
-
+A inclinação da reta indica que quanto maior for a duração do filme, as notas tendem a aumentar também.
 
 
 ## Ferramentas utilizadas 🧰
