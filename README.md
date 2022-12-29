@@ -45,6 +45,14 @@ Por exemplo, o gráfico entre a Duração X Ano de lançamento:
 
 ![image](https://user-images.githubusercontent.com/67301805/210014180-c61c9b41-2677-40f0-b568-58bbb7b1bc7a.png)
 
+A variável referente ao ano de lançamento tem um intervalo maior do que as notas, por isso o primeiro gráfico não ficou com a mesma aparência.
+
+
+
+
+
+
+
 ## Ferramentas utilizadas 🧰
 <p> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
     <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
