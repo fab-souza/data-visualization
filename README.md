@@ -33,8 +33,17 @@ Depois, fiz a tradução das variáveis, através do *.rename()*, e traduzi os g
 ![image](https://user-images.githubusercontent.com/67301805/209211323-ad6b2887-1385-4997-8d91-069f6efa5b52.png)
 ![image](https://user-images.githubusercontent.com/67301805/209211091-91e7c787-db72-4ac1-ab20-e282b5004f14.png)
 
-Com os dataframes traduzidos, iniciei a parte analítica. A primeira análise que gostaria de verificar era: se há relação entre as notas dos filmes com sua duração. Ao plotar um gráfico entre a Duração com as Notas, não obtive um resultado que esperava, porque o gráfico apresentou as Notas como se fossem categorias. Para tentar resolver, criei uma nova variável com as notas indo de 0 a 100, ao multiplicar a Nota original por 10 e converter para inteiro, porém o novo gráfico ficou igual ao primeiro.
+Com os dataframes traduzidos, iniciei a parte analítica.
 
+A primeira análise foi: se há relação entre as notas dos filmes com sua duração. 
+
+Ao plotar um gráfico entre a Duração com as Notas, não obtive um resultado que esperava.
+
+![image](https://user-images.githubusercontent.com/67301805/210013922-88620236-8d0c-49df-80ec-47d8f3431a26.png)
+
+Por exemplo, o gráfico entre a Duração X Ano de lançamento:
+
+![image](https://user-images.githubusercontent.com/67301805/210014180-c61c9b41-2677-40f0-b568-58bbb7b1bc7a.png)
 
 ## Ferramentas utilizadas 🧰
 <p> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
