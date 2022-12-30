@@ -36,8 +36,7 @@ Depois, fiz a tradução das variáveis, através do *.rename()*, e traduzi os g
 Com os dataframes traduzidos, iniciei a parte analítica. A primeira análise foi: se há relação entre as notas dos filmes com sua duração. 
 
 Ao plotar um gráfico entre a Duração com as Notas, não obtive um resultado que esperava.
-
-![image](https://user-images.githubusercontent.com/67301805/210013922-88620236-8d0c-49df-80ec-47d8f3431a26.png)
+&nbsp;![image](https://user-images.githubusercontent.com/67301805/210013922-88620236-8d0c-49df-80ec-47d8f3431a26.png)
 
 Por exemplo, o gráfico entre a Duração X Ano de lançamento:
 
@@ -50,6 +49,17 @@ Voltando a análise, utilizei o *.lmplot()* para apresentar se há a relação e
 ![image](https://user-images.githubusercontent.com/67301805/210019151-d4921f50-721e-48f6-a45a-f05a976f81b6.png)
 
 A inclinação da reta indica que quanto maior for a duração do filme, as notas tendem a aumentar também.
+
+A segunda análise que fiz, foi: se há relação na distribuição das notas com o gênero dos filmes.
+
+Utilizei os gêneros Comédia e Suspense, pois eles apresentaram uma amostra semelhante, 58 e 59 respectivamente. O gráfico *.lmplot()* entre a Nota X Duração apresentou uma distribuição diferente entre os gêneros.
+
+![image](https://user-images.githubusercontent.com/67301805/210023733-e2c8b389-94ad-42cb-9b24-bad2dbee2d7c.png)
+
+Para fazer a análise estatística, usei a biblioteca [**Scipy**](https://scipy.org/), que contém subpacotes de álgebra linear, cluster, processamento de sinal, entre outros, além de estatística. Determinei o teste de hipótese da seguinte forma: 
+- Hipótese nula (H_0): a distribuição da nota é a mesma nos dois grupos;
+- Hipótese alternativa (H_alt): a distribuição da nota não é a mesma.
+
 
 
 ## Ferramentas utilizadas 🧰
