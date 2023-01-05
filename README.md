@@ -33,24 +33,21 @@ Depois, fiz a tradução das variáveis, através do *.rename()*, e traduzi os g
 
 ![image](https://user-images.githubusercontent.com/67301805/209211091-91e7c787-db72-4ac1-ab20-e282b5004f14.png)
 
-Com os dataframes traduzidos, iniciei a parte analítica. A primeira análise foi: se há relação entre as notas dos filmes com sua duração. 
+Com os dataframes traduzidos, iniciei a parte analítica. A primeira análise foi: se **há relação entre as notas dos filmes com sua duração**. 
 
-Ao plotar um gráfico entre a Duração com as Notas, não obtive um resultado que esperava.
-&nbsp;![image](https://user-images.githubusercontent.com/67301805/210013922-88620236-8d0c-49df-80ec-47d8f3431a26.png)
+Ao plotar um gráfico entre a Duração com as Notas, obtive o seguinte resultado.
 
-Por exemplo, o gráfico entre a Duração X Ano de lançamento:
+![image](https://user-images.githubusercontent.com/67301805/210013922-88620236-8d0c-49df-80ec-47d8f3431a26.png)
 
-![image](https://user-images.githubusercontent.com/67301805/210014180-c61c9b41-2677-40f0-b568-58bbb7b1bc7a.png)
-
-A variável referente ao ano de lançamento tem um intervalo maior do que as notas, por isso o primeiro gráfico não ficou com a mesma aparência.
-
-Voltando a análise, utilizei o *.lmplot()* para apresentar se há a relação entre a duração dos filmes com suas notas:
+Os pontos ficaram dispersos e não apresentaram uma tendência de comportamento, portanto, utilizei o *.lmplot()* para ver se há uma relação entre a duração dos filmes com suas notas:
 
 ![image](https://user-images.githubusercontent.com/67301805/210019151-d4921f50-721e-48f6-a45a-f05a976f81b6.png)
 
 A inclinação da reta indica que quanto maior for a duração do filme, as notas tendem a aumentar também.
 
-A segunda análise que fiz, foi: se há relação na distribuição das notas com o gênero dos filmes.
+---
+
+A segunda análise que fiz, foi: se **há relação na distribuição das notas com o gênero dos filmes**.
 
 Utilizei os gêneros Comédia e Suspense, pois eles apresentaram uma amostra semelhante, 58 e 59 respectivamente. O gráfico *.lmplot()* entre a Nota X Duração apresentou uma distribuição diferente entre os gêneros.
 
