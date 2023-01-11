@@ -9,7 +9,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Data Visualization**
 | :label: Tecnologias | python
-| :rocket: URL         | https://github.com/fab-souza/data-visualization/
+| :rocket: URL         | [Notebook no Kaggle](https://www.kaggle.com/code/fabianadesouza/data-visualization)
 | :fire: Desafio     | Conteúdo do curso [Data Visualization](https://www.alura.com.br/curso-online-data-visualization-com-seaborn)
 
 ![](https://user-images.githubusercontent.com/67301805/208895033-f126dcaa-a3d7-42f8-a40a-123db215c218.jpg#vitrinedev)
@@ -49,13 +49,31 @@ A inclinação da reta indica que quanto maior for a duração do filme, as nota
 
 A segunda análise que fiz, foi: se **há relação na distribuição das notas com o gênero dos filmes**.
 
-Utilizei os gêneros Comédia e Suspense, pois eles apresentaram uma amostra semelhante, 58 e 59 respectivamente. O gráfico *.lmplot()* entre a Nota X Duração apresentou uma distribuição diferente entre os gêneros.
+Utilizei os gêneros Comédia e Suspense, pois eles apresentaram uma amostra semelhante, 58 e 59 respectivamente. O gráfico *.lmplot()* entre a Nota X Duração apresentou um comportamento diferente entre os gêneros.
 
 ![image](https://user-images.githubusercontent.com/67301805/210023733-e2c8b389-94ad-42cb-9b24-bad2dbee2d7c.png)
 
 Para fazer a análise estatística, usei a biblioteca [**Scipy**](https://scipy.org/), que contém subpacotes de álgebra linear, cluster, processamento de sinal, entre outros, além de estatística. Determinei o teste de hipótese da seguinte forma: 
 - Hipótese nula (H_0): a distribuição da nota é a mesma nos dois grupos;
 - Hipótese alternativa (H_alt): a distribuição da nota não é a mesma.
+
+O teste de hipótese foi feito com a função [*Ranksums*](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ranksums.html), que calcula o [teste Wilcoxon rank-sum](https://data.library.virginia.edu/the-wilcoxon-rank-sum-test/) para duas amostras e apresenta o valor-p. Nesta análise, o valor-p foi superior a 0,5%, isso significa que apesar do gráfico mostrar comportamentos diferentes, matematicamente, a diferença entre os gêneros é insignificante e que o comportamento da população será semelhante ao da amostra analisada. Neste caso, descarta-se a hipótese alternativa e aceitamos a hipótese nula.
+
+Lembrando que o foco, tanto do curso, quanto deste repositório, é a visualização dos dados e não a estatística.
+
+---
+
+E por último, fiz um terceiro teste: **a distribuição de nota é a mesma para produções de países diferentes?**
+
+O top 5 de países produtores foi: os Estados Unidos com 157 filmes, Índia com 115, Grã-Bretanha com 29, Alemanha e Japão 9 filmes cada.
+
+Separei todos os filmes produzidos nos Estados Unidos em uma variável (157 filmes) e uni os filmes da Índia, Grã-Bretanha e Alemanha para compor a amostra de filmes estrangeiros (153 filmes).
+
+![EUA](https://user-images.githubusercontent.com/67301805/211861913-69e843bf-3fe9-4ec3-a6e7-faa25cd6eba7.jpg)
+![estrangeiros](https://user-images.githubusercontent.com/67301805/211862273-007e302e-b13e-4083-8dc3-e0e295889856.jpg)
+
+Nesta análise, o p-valor foi menor do que 0,05 e neste caso, rejeita-se a Hipótese Nula.
+
 
 
 
