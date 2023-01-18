@@ -74,7 +74,9 @@ Separei todos os filmes produzidos nos Estados Unidos em uma variável (157 film
 
 Nesta análise, o p-valor foi menor do que 0,05 e neste caso, rejeita-se a Hipótese Nula.
 
+---
 
+Muito obrigada por chegar até aqui e até a próxima 🤗
 
 
 ## Ferramentas utilizadas 🧰
